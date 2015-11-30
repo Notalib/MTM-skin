@@ -24,7 +24,7 @@ Should at least contain the following information:
     "pages": "./path/to/pages"
   }
 }
-```js
+```
 
 ### `config` file
 
