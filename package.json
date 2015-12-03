@@ -1,5 +1,6 @@
 {
   "name": "MTM-skin",
+  "version": "0.0.1",
   "private": true,
 
   "config": "./config.coffee",
