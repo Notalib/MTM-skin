@@ -18,7 +18,8 @@ Should at least contain the following information:
   "name": "Name of the skin",
   "version": "SemVer version",
 
-  "config": "./path/to/config/file",
+  "config": "./path/to/config/file.coffee",
+  "style": "./path/to/style.scss",
 
   "directories": {
     "pages": "./path/to/pages"
@@ -28,8 +29,11 @@ Should at least contain the following information:
 
 ### `config` file
 
-
 Should be located as specified in the `package.json` file.
+
+### `style` file [OPTIONAL]
+
+This optional parameter specifies the location of a custom style file that gets prepended to the final stylesheet
 
 ### Directories
 
