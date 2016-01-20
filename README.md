@@ -5,7 +5,7 @@
 ```
 $ git clone https://github.com/Notalib/MTM-skin /path/to/skin # Clone this skin repo
 $ cd /path/to/LYT                                             # Now cd into LYT's repo dir
-$ cake -s /path/to/skin app                                   # ... and build the project with the new skin
+$ cake -t /path/to/skin app                                   # ... and build the project with the new skin
 ```
 
 ## Format
