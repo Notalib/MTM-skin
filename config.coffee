@@ -15,7 +15,7 @@ jQuery.extend true, LYT.config,
 
   bookshelf:
     fetchNew: true
-    pageSize: 50
+    pageSize: 5
 
   search:
     enabled: false
