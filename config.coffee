@@ -13,6 +13,9 @@ jQuery.extend true, LYT.config,
     url: "http://dodexttest.mtm.se/dodServices/"
     proxyToLocal: false
 
+  bookshelf:
+    fetchNew: true
+
   search:
     enabled: false
 
