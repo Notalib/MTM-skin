@@ -1,1 +1,53 @@
-/* Write custom CSS or SASS styles */
+$theme-bg-color: #C1E2D9;
+
+@font-face {
+  font-family: "Variable";
+  font-weight: bold;
+  src: url("../images/MTM_Variable/MTMVariable_Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Variable";
+  font-weight: bold;
+  font-style: italic;
+  src: url("../images/MTM_Variable/MTMVariable_BlackItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Variable";
+  font-weight: bolder;
+  src: url("../images/MTM_Variable/MTMVariable_Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Variable";
+  font-weight: bolder;
+  font-style: italic;
+  src: url("../images/MTM_Variable/MTMVariable_BoldItalic.otf") format("opentype");
+}
+
+/* Overwrite login logo */
+#login h1 {
+  background: transparent url(../images/mtm_legimus_appen_transparent.png) no-repeat;
+  height: 125px;
+}
+
+/* Overwrite background */
+.ui-page,
+#settings.ui-page,
+#profile.ui-page,
+#about.ui-page,
+#support.ui-page,
+#login.ui-page {
+  background: $theme-bg-color url(../images/background-2560x1600.jpg) no-repeat;
+  background-attachment: fixed;
+}
+
+#book-context-content {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Change the header font to the "Variable" font */
+.ui-header h1.ui-title {
+  font-family: "Variable";
+}
