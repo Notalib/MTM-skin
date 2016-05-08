@@ -28,8 +28,10 @@ $theme-bg-color: #C1E2D9;
 
 /* Overwrite login logo */
 #login h1 {
-  background: transparent url(../images/mtm_legimus_appen_transparent.png) no-repeat;
-  height: 125px;
+  background: transparent url(../images/legimus_logo_tekst.png) no-repeat;
+  height: 227px;
+  width: 204px;
+  margin-bottom: 2em;
 }
 
 /* Overwrite background */
