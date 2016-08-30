@@ -7,6 +7,8 @@ jQuery.extend true, LYT.config,
   isE17: false
   isMTM: true
 
+  singleUserMode: true
+
   locale: 'se'
 
   rpc:
