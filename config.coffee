@@ -10,7 +10,7 @@ jQuery.extend true, LYT.config,
   locale: 'se'
 
   rpc:
-    url: "http://dodexttest.mtm.se/dodServices/"
+    url: "//dodexttest.mtm.se/dodServices/"
     proxyToLocal: false
 
   bookshelf:
